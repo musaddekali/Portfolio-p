@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --primary: blue;
   --white: #fff;
   --gray-100: #f3f4f6;
@@ -24,10 +24,10 @@ body {
   line-height: 1.5;
   color: var(--body-text-color);
   background-color: var(--body-bg);
-}
+} */
 
-@layer components {
+/* @layer components {
   .btn_primary {
-    @apply bg-primary text-white text-lg font-medium px-6 py-3 hover:bg-primary-dark rounded-full active:bg-primary-darkest focus:ring-4 focus:ring-red;
+    @apply bg-blue-600 text-white text-lg font-medium px-6 py-3 hover:bg-blue-700 rounded-full focus:ring-4 focus:ring-red;
   }
-}
+} */

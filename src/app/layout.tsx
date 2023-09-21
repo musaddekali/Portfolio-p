@@ -19,7 +19,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body
+        className={
+          inter.className +
+          " bg-white leading-relaxed text-slate-800 antialiased selection:bg-sky-600 selection:text-sky-100"
+        }
+      >
         <div className="app">{children}</div>
       </body>
     </html>
