@@ -31,3 +31,21 @@ body {
     @apply bg-blue-600 text-white text-lg font-medium px-6 py-3 hover:bg-blue-700 rounded-full focus:ring-4 focus:ring-red;
   }
 } */
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .title_btn {
+    @apply bg-sky-600 hover:bg-sky-500 transition duration-300 ease-in-out  text-white leading-tight px-4 py-2 rounded-full flex items-center gap-2 text-sm;
+  }
+
+  .skills_tag {
+    @apply px-3 py-1 rounded-full text-xs font-medium bg-sky-100 text-sky-600 leading-tight inline-flex items-center;
+  }
+
+  .exprnc_card {
+    @apply grid grid-cols-12 gap-4 p-6 backdrop-blur rounded-md border border-transparent transition duration-150 hover:bg-sky-300/5 hover:border-sky-200/40;
+  }
+}
